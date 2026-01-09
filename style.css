@@ -38,6 +38,7 @@ nav{
     padding: 12px 16px;
     color: #FFFFFF;
     pointer-events;
+    cursor: pointer;
     
 }
 
@@ -94,6 +95,7 @@ nav{
     border: none;
     padding: 12px 16px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 .btn-bottom2{
     background: transparent;
@@ -101,12 +103,14 @@ nav{
     padding: 12px 16px;
     color: #FFFFFF;
     border: 1px solid white;
+    cursor: pointer;
 }
 .btn-bottom{
     display: flex;
     justify-content: space-between;
     gap: 30px;
     padding: 32px;
+    cursor: pointer;
 }
 
 .notes-section{
@@ -188,10 +192,14 @@ card p{
 
 .brain-container p{
     color: #627382;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     font-size: 16px;
 }
 
+
+.list-item{
+    list-style: none;
+}
 
 .challenge {
     display: flex;
