@@ -147,3 +147,48 @@ nav{
     border-radius: 50px;
     padding: 6px;
 }
+
+.brain-section{
+      max-width: 1500px;
+      max-height: 840px;
+      background-color: 
+}
+
+.brain-all{
+    margin: 120px;
+    display: flex;
+    align-items: right;
+}
+.knowledge-img{
+    width: 50%;
+    height: 30%;
+}
+
+.brain-container{
+    width: 760px;
+    height: 30% ;
+    margin-top: 102px;
+    margin-left: 120px;
+}
+.brain-container h4{
+    color: #30B868;
+    padding-bottom: 16px;
+    font-size: 13px;
+}
+
+.brain-container h1{
+    padding-bottom: 16px;
+    font-size: 48px;
+}
+
+.brain-container p{
+    color: #627382;
+    padding-bottom: 40px;
+    font-size: 16px;
+}
+
+.list-item img{
+    
+    
+
+}
