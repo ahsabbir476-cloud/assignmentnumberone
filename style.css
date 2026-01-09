@@ -10,12 +10,14 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 20px;
 }
 
 .nav-logo img{
     width: 125px;
     height: 60px;
     margin-bottom: 16px;
+    
 }
 
 .nav-section a{
@@ -34,4 +36,72 @@ nav{
     background-color: #30B868;
     border: none;
     padding: 12px 16px;
+    color: #FFFFFF;
+}
+
+.banner{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("./assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+
+
+.banner-content{
+    width: 1360px;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.top-btn{
+    background-color: #FFFFFF;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 40px;
+    color: #30B868;
+}
+
+
+.banner-content h1{
+    font-size: 68px;
+    color: #FFFFFF;
+    line-height: 60px;
+    padding-top: 24px;
+}
+
+.banner-content p{
+    font-size: 15pxpx;
+    line-height: 28px;
+    text-align: center;
+    max-width: 520px;   
+    margin: 0 auto; 
+    color: #FFFFFF;
+    padding-top: 16px;
+}
+
+.btn-bottom1{
+    background-color: #30B868;
+    border: none;
+    padding: 12px 16px;
+    color: #FFFFFF;
+}
+.btn-bottom2{
+    background-color: #30B868;
+    border: none;
+    padding: 12px 16px;
+    color: #FFFFFF;
+}
+.btn-bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 32px;
 }
